@@ -24,11 +24,16 @@ work_delegation(func, tasks, comm)
 ```
 
 ## Installation
-Clone the repository and install locally in your favourite environment:
+Clone the repository and install locally in your favourite virtual environment:
 
 ```bashrc
 git clone git@github.com:Richard-Sti/TaskmasterMPI.git
-pip install ./TaskmasterMPI/.
+
+# Go to the root directory of the repository
+cd TaskmasterMPI
+
+# Install the package, in editable mode
+python -m pip install -e .
 ```
 
 
